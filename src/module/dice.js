@@ -1,6 +1,4 @@
 
-import SFRPGCustomChatMessage from "./chat/chatbox.js";
-
 export class DiceSFRPG {
     /**
     * A standardized helper function for managing core Starfinder "d20 rolls"
@@ -80,27 +78,12 @@ export class DiceSFRPG {
                     d.options.fumble = fumble;
                 }
             }
-
-            if (game.settings.get("sfrpg", "useCustomChatCard")) {
-                //Push the roll to the ChatBox
-                const customData = {
-                    'title': title,
-                    'rollContext':  rollContext,
-                    'flavor': flavor,
-                    'speaker': speaker,
-                    'rollMode': rollMode
-                };
-
-                const action = title.replace(/\s/g, '-').toLowerCase();
-
-                SFRPGCustomChatMessage.renderStandardRoll(roll, customData, action);
-            } else {
-                roll.toMessage({
-                    speaker: speaker,
-                    flavor: flavor,
-                    rollMode: rollMode
-                });
-            }
+            
+            roll.toMessage({
+                speaker: speaker,
+                flavor: flavor,
+                rollMode: rollMode
+            });
 
             if (onClose) {
                 onClose(roll, formula, finalFormula);
@@ -315,26 +298,11 @@ export class DiceSFRPG {
                 }
             }
 
-            if (game.settings.get("sfrpg", "useCustomChatCard")) {
-                //Push the roll to the ChatBox
-                const customData = {
-                    'title': title,
-                    'rollContext':  rollContext,
-                    'flavor': flavor,
-                    'speaker': speaker,
-                    'rollMode': rollMode
-                };
-
-                const action = title.replace(/\s/g, '-').toLowerCase();
-
-                SFRPGCustomChatMessage.renderStandardRoll(roll, customData, action);
-            } else {
-                roll.toMessage({
-                    speaker: speaker,
-                    flavor: flavor,
-                    rollMode: rollMode
-                });
-            }
+            roll.toMessage({
+                speaker: speaker,
+                flavor: flavor,
+                rollMode: rollMode
+            });
 
             if (onClose) {
                 onClose(roll, formula, finalFormula);
