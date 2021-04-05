@@ -3,7 +3,7 @@
   "type": "equipment",
   "data": {
     "description": {
-      "value": "",
+      "value": "A set of goblin armor.",
       "chat": "",
       "unidentified": ""
     },
@@ -140,6 +140,6 @@
     }
   },
   "flags": {},
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/sfrpg/icons/equipment/armor/goblin_battle_jack.webp",
   "_id": "ICnwiOnQQPlwOVGN"
 }

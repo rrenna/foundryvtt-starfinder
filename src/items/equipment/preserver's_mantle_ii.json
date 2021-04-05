@@ -7,7 +7,7 @@
   "type": "equipment",
   "data": {
     "description": {
-      "value": "",
+      "value": "The Xenowardens bioengineered the preserver’s mantle as a form of living armor. Rather than donning the mantle, a creature steps onto it and allows the armor to wrap itself around and over the creature’s body. Insulating moss acts as padding, while vines and wood match the strength of the advanced composites of other light armors. When the armor’s environmental protections are activated, the external surface of the plants interlace into an airtight barrier, while the moss regulates the temperature and converts exhaled gases back into breathable air. Like other armors, the mantle must be adjusted to fit a new wearer (though this requires a Life Science check, rather than an Engineering check.",
       "chat": "",
       "unidentified": ""
     },
@@ -113,6 +113,6 @@
     }
   },
   "flags": {},
-  "img": "icons/svg/mystery-man.svg",
+  "img": "icons/equipment/head/crown-horns-brown.webp",
   "_id": "sV15o1cqT6Nc1jAs"
 }
