@@ -7,7 +7,7 @@
   "type": "equipment",
   "data": {
     "description": {
-      "value": "",
+      "value": "Although designed for extravehicular activity in hazardous conditions, reinforced EVA suits function as durable, if clunky, heavy armor. This full-body suit has a rigid shell covering the back and chest, with heavy gloves, padded boots, and rugged fabric rounding out the ensemble. A wide helmet design provides good visibility and includes a retractable glare shield. The suit’s excellent air recycling makes for a more comfortable environment than many more battle-worthy designs.",
       "chat": "",
       "unidentified": ""
     },
@@ -113,6 +113,6 @@
     }
   },
   "flags": {},
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/sfrpg/icons/equipment/armor/reinforced_eva_suit_2.webp",
   "_id": "SELaFrniIUcJw6BY"
 }

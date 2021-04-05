@@ -7,7 +7,7 @@
   "type": "equipment",
   "data": {
     "description": {
-      "value": "",
+      "value": "While a few shobhads still wear armor crafted from leather reinforced with metal plates, the shobhad-neh typically incorporate more advanced materials such as ballistic mesh and ceramic plates into the traditional designs of their ancestors. Despite having a high bulk for light armor, war harnesses are well padded and ventilated for comfort, as shobhads rarely remove their armor. Though some shobhad disdain the life support systems built into advanced armor, most recognize their value. The protective headgear, leggings, and sleeves used for such conditions stow discretely out of sight when not needed.\nThe shobhad war harness comes in recruit, veteran, warleader, and chieftain varieties. The grades vary by quality of manufacture rather than appearance.",
       "chat": "",
       "unidentified": ""
     },
@@ -113,6 +113,6 @@
     }
   },
   "flags": {},
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/sfrpg/icons/equipment/armor/shobhad_harness_3.webp",
   "_id": "um0d1r4IdZvgsi4s"
 }
